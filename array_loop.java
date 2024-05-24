@@ -4,7 +4,7 @@ class Subject{
   private int maxMarks;
   private int marksObtain;
 
-  public Subject(String ID,String name,int maxMarks,int marksObtain){\
+  public Subject(String ID,String name,int maxMarks,int marksObtain){
     this.ID=ID;
     this.name=name;
     this.maxMarks=maxMarks;
@@ -17,5 +17,7 @@ class Subject{
 
 }
 public class array_loop {
-  
+  Subject subs[]=new Subject[3];
+  subs[0]=new Subject("s101","data_structure",100);
+  subs[1]=new Subject("s102","algorithms",100);
 }
