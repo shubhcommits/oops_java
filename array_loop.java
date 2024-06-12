@@ -8,6 +8,7 @@ class Subject{
     this.ID=ID;
     this.name=name;
     this.maxMarks=maxMarks;
+    this.marksObtain=marksObtain;
   }
 
   public String getId(){return ID;}

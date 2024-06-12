@@ -1,4 +1,4 @@
-interface Test{  // interface will have all abstract and oublic method
+interface Test{  // interface will have all abstract and public method
   void meth1();
   void meth2();
 }
@@ -13,7 +13,7 @@ class My implements Test{
     System.out.println("meth3 of mine");
   }
 }
-public class interface_practice {
+public class i1_interface_practice {
   public static void main(String[] args) {
     Test s=new My(); // methods will be called based on the objects
     s.meth1();
